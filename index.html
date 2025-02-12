@@ -1,6 +1,8 @@
 <html>
   <head>
     <title>Learning CSS</title>
+    <!--internal style-->
+
     <style>
       h1 {
         color: red;
@@ -14,81 +16,117 @@
       }
 
       /* TODO: add styles for header  */
-      
+
       /* TODO: add styles for footer  */
 
       .paragraph-1 {
         background-color: pink;
       }
+      h2 {
+        background-color: gold;
+      }
+      p {
+        background-color: fuchsia;
+      }
+      footer {
+        background-color: lightsalmon;
+        width: 100;
+        position: fixed;
+      }
+
+      main {
+        color: khaki;
+        font-size: small;
+        margin: 0%;
+      }
+      header {
+        background-color: forestgreen;
+        padding: 20px;
+        text-align: start;
+      }
+      table, th, td {
+        border: 1px solid black;
+      }
+      .class {
+        margin-top: 20px; /* Only top margin is 20px */
+        margin-left: 0; /* No left margin */
+        margin-bottom: 25px; ?/* Only bottom margin is 25px*/
+        margin-right: 10px; /* Only right margin is 10px */
+      }
     </style>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <h1 style="text-decoration: underline">I like cats!
-      </h1>
+      <h1 style="text-decoration-color: blueviolet">I like cats!</h1>
     </header>
     <main>
-      <p class="paragraph-1" style="">
-        <em>Nice kitty!</em> Consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
+      <p class="paragraph-1" style="background-color: yellowgreen" ;>
+        <em>Nice kitty!</em> Consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
         sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
-        pulvinar <strong>mattis</strong> nunc. Enim blandit volutpat maecenas volutpat blandit
-        aliquam etiam.    
+        pulvinar <strong>mattis</strong> nunc. Enim blandit volutpat maecenas
+        volutpat blandit aliquam etiam.
       </p>
-    
-      <p style="">
+
+      <p style="color: aqua">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
-        sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
-        pulvinar mattis nunc. Enim blandit volutpat maecenas volutpat blandit
-        aliquam etiam. Sed blandit libero volutpat sed cras ornare arcu dui vivamus.
-        Nulla aliquet enim tortor at auctor urna nunc id cursus. Gravida arcu ac
-        tortor dignissim convallis aenean. Nulla porttitor massa id neque aliquam
-        vestibulum morbi blandit cursus. Fringilla urna porttitor rhoncus dolor. A
-        erat nam at lectus urna duis.
+        tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc
+        pulvinar sapien et ligula ullamcorper malesuada. Euismod quis viverra
+        nibh cras pulvinar mattis nunc. Enim blandit volutpat maecenas volutpat
+        blandit aliquam etiam. Sed blandit libero volutpat sed cras ornare arcu
+        dui vivamus. Nulla aliquet enim tortor at auctor urna nunc id cursus.
+        Gravida arcu ac tortor dignissim convallis aenean. Nulla porttitor massa
+        id neque aliquam vestibulum morbi blandit cursus. Fringilla urna
+        porttitor rhoncus dolor. A erat nam at lectus urna duis.
       </p>
-    
-      <p style="">
+
+      <p style="color: brown">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
-        sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
-        pulvinar mattis nunc. Enim blandit volutpat maecenas volutpat blandit
-        aliquam etiam. Sed blandit libero volutpat sed cras ornare arcu dui vivamus.
-        Nulla aliquet enim tortor at auctor urna nunc id cursus. Gravida arcu ac
-        tortor dignissim convallis aenean. Nulla porttitor massa id neque aliquam
-        vestibulum morbi blandit cursus. Fringilla urna porttitor rhoncus dolor. A
-        erat nam at lectus urna duis.
+        tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc
+        pulvinar sapien et ligula ullamcorper malesuada. Euismod quis viverra
+        nibh cras pulvinar mattis nunc. Enim blandit volutpat maecenas volutpat
+        blandit aliquam etiam. Sed blandit libero volutpat sed cras ornare arcu
+        dui vivamus. Nulla aliquet enim tortor at auctor urna nunc id cursus.
+        Gravida arcu ac tortor dignissim convallis aenean. Nulla porttitor massa
+        id neque aliquam vestibulum morbi blandit cursus. Fringilla urna
+        porttitor rhoncus dolor. A erat nam at lectus urna duis.
       </p>
-    
+
       <table>
         <tr>
           <th style="">item</th>
-          <th style="">price</th>
+          <th style="color: bisque">price</th>
         </tr>
         <tr>
-          <td style="">hotwheels car</td>
-          <td style="">$4.99</td>
+          <td style="border: 0dvb">hotwheels car</td>
+          <td style="background-color: orangered">$4.99</td>
         </tr>
         <tr>
-          <td style="">
-            Cabbage patch doll
-          </td>
-          <td style="">$1.99</td>
+          <td style="animation-name: initial">Cabbage patch doll</td>
+          <td style="font-style: unset" ;>$1.99</td>
         </tr>
       </table>
-    
-      <button style="">Buy Now!</button>
+
+      <button style="color: blue">Buy Now!</button>
     </main>
-  
+
     <nav>
-      <a> HOME </a> |
-      <a> ABOUT </a> |
+      <a> HOME </a> | <a> ABOUT </a> |
       <a> GALLERY </a>
     </nav>
-    
-    <footer>
-    </footer>
+
+    <footer></footer>
+    <h2>Shopping (unordered)</h2>
+
+    <p>this is my unordered list</p>
+
+    <ul>
+      <li style="background-color: chartreuse">tomato</li>
+      <li style="margin: 0cqb">green salad</li>
+      <li style="color: mediumpurple">bread</li>
+      <li style="background-color: slateblue">oil</li>
+    </ul>
 
     <script src="./script.js"></script>
   </body>

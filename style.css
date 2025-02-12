@@ -1,4 +1,9 @@
 html {
-  height: 100%;
-  width: 100%;
+.my unordored list{
+  list-style: square;
 }
+.my order list{
+  list-style: circle;
+}
+}
+
